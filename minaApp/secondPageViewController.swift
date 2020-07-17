@@ -12,7 +12,6 @@ class secondPageViewController: UIViewController {
 
     @IBOutlet weak var affirmationsButton: UIButton!
     
-    @IBOutlet weak var journalButton: UIButton!
     
     @IBOutlet weak var waterReminder: UIButton!
     
@@ -33,9 +32,6 @@ class secondPageViewController: UIViewController {
         affirmationsButton.layer.cornerRadius = 25.0
         affirmationsButton.tintColor = UIColor.white
         
-        journalButton.backgroundColor = UIColor.init(red : 235/255, green : 115/255, blue : 252/255, alpha : 1)
-        journalButton.layer.cornerRadius = 25.0
-        journalButton.tintColor = UIColor.white
         
         waterReminder.backgroundColor = UIColor.init(red : 235/255, green : 115/255, blue : 252/255, alpha : 1)
         waterReminder.layer.cornerRadius = 25.0

@@ -47,7 +47,10 @@
 		793615DC24C100B800D4F628 /* breakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793615DB24C100B800D4F628 /* breakViewController.swift */; };
 		79378BD824C1E59B00417F6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AB3D0124C10D6100780CFB /* SceneDelegate.swift */; };
 		79378BDC24C1E62000417F6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79378BDB24C1E62000417F6E /* AppDelegate.swift */; };
-		79AB3D0024C10B5D00780CFB /* waterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AB3CFF24C10B5D00780CFB /* waterViewController.swift */; };
+		79378BE924C1EE4A00417F6E /* whyMInaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79378BE824C1EE4900417F6E /* whyMInaViewController.swift */; };
+		79378BEB24C1EF0000417F6E /* minaHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79378BEA24C1EF0000417F6E /* minaHomeViewController.swift */; };
+		79378BED24C1F52800417F6E /* waterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79378BEC24C1F52700417F6E /* waterViewController.swift */; };
+		79378BEF24C1F65900417F6E /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 79378BEE24C1F65900417F6E /* home.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,7 +95,10 @@
 		793615BA24C0DCCD00D4F628 /* ImageSeven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ImageSeven.png; path = ../../ImageSeven.png; sourceTree = "<group>"; };
 		793615DB24C100B800D4F628 /* breakViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = breakViewController.swift; path = /Users/bellezou/Desktop/minaApp1/minaApp/breakViewController.swift; sourceTree = "<absolute>"; };
 		79378BDB24C1E62000417F6E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../breakMina/breakMina/AppDelegate.swift; sourceTree = "<group>"; };
-		79AB3CFF24C10B5D00780CFB /* waterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = waterViewController.swift; path = "../../../Documents/waterReminder/Water Reminder 2/waterViewController.swift"; sourceTree = "<group>"; };
+		79378BE824C1EE4900417F6E /* whyMInaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = whyMInaViewController.swift; path = ../../../Documents/whyMina/whyMina/whyMInaViewController.swift; sourceTree = "<group>"; };
+		79378BEA24C1EF0000417F6E /* minaHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = minaHomeViewController.swift; path = ../../../Documents/minaHomePageActual/minaHomePage/minaHomeViewController.swift; sourceTree = "<group>"; };
+		79378BEC24C1F52700417F6E /* waterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = waterViewController.swift; path = "../../waterReminder/Water Reminder 2/waterViewController.swift"; sourceTree = "<group>"; };
+		79378BEE24C1F65900417F6E /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = ../../home.png; sourceTree = "<group>"; };
 		79AB3D0124C10D6100780CFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = /Users/bellezou/Desktop/minaApp1/minaApp/SceneDelegate.swift; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
@@ -132,7 +138,9 @@
 				7936158A24C0C20200D4F628 /* secondPageViewController.swift */,
 				7936159B24C0DAB200D4F628 /* newSelfAffirmationViewController.swift */,
 				793615DB24C100B800D4F628 /* breakViewController.swift */,
-				79AB3CFF24C10B5D00780CFB /* waterViewController.swift */,
+				79378BE824C1EE4900417F6E /* whyMInaViewController.swift */,
+				79378BEC24C1F52700417F6E /* waterViewController.swift */,
+				79378BEA24C1EF0000417F6E /* minaHomeViewController.swift */,
 				7936158C24C0C2E500D4F628 /* Main.storyboard */,
 				793615B224C0DCCB00D4F628 /* ImageEight.png */,
 				793615B924C0DCCD00D4F628 /* ImageEighteen.png */,
@@ -165,6 +173,7 @@
 				793615A424C0DCC800D4F628 /* imgThree.png */,
 				793615AD24C0DCCA00D4F628 /* imgTwo.png */,
 				7936157D24C0C1B100D4F628 /* Assets.xcassets */,
+				79378BEE24C1F65900417F6E /* home.png */,
 				7936157F24C0C1B100D4F628 /* LaunchScreen.storyboard */,
 				7936158224C0C1B100D4F628 /* Info.plist */,
 				7936157A24C0C1AE00D4F628 /* minaApp.xcdatamodeld */,
@@ -240,6 +249,7 @@
 				793615D124C0DCCD00D4F628 /* ImageTwelve.png in Resources */,
 				793615C824C0DCCD00D4F628 /* imgNine.png in Resources */,
 				793615D824C0DCCD00D4F628 /* ImageSeven.png in Resources */,
+				79378BEF24C1F65900417F6E /* home.png in Resources */,
 				793615C024C0DCCD00D4F628 /* imgSeven.png in Resources */,
 				793615C124C0DCCD00D4F628 /* ImageNine.png in Resources */,
 				793615C724C0DCCD00D4F628 /* ImageSix.png in Resources */,
@@ -273,13 +283,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79378BED24C1F52800417F6E /* waterViewController.swift in Sources */,
+				79378BEB24C1EF0000417F6E /* minaHomeViewController.swift in Sources */,
 				79378BDC24C1E62000417F6E /* AppDelegate.swift in Sources */,
 				7936158B24C0C20200D4F628 /* secondPageViewController.swift in Sources */,
 				79378BD824C1E59B00417F6E /* SceneDelegate.swift in Sources */,
 				7936157624C0C1AE00D4F628 /* ViewController.swift in Sources */,
+				79378BE924C1EE4A00417F6E /* whyMInaViewController.swift in Sources */,
 				793615DC24C100B800D4F628 /* breakViewController.swift in Sources */,
 				7936159C24C0DAB300D4F628 /* newSelfAffirmationViewController.swift in Sources */,
-				79AB3D0024C10B5D00780CFB /* waterViewController.swift in Sources */,
 				7936157C24C0C1AE00D4F628 /* minaApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

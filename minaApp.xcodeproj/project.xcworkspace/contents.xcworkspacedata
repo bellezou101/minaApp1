@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../../waterReminder/Water Reminder 2/Base.lproj/Main.storyboard">
+   </FileRef>
+   <FileRef
+      location = "group:../../../Documents/whyMina/whyMina/whyMInaViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/bellezou/Documents/minaHomePage/minaHomePage/Base.lproj/emptyMain.storyboard">
+   </FileRef>
+   <FileRef
       location = "group:../../breakMina/breakMina/AppDelegate.swift">
    </FileRef>
    <FileRef
